@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A11A68C820780D1C0066AA45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11A68C720780D1C0066AA45 /* AppDelegate.swift */; };
+		A11A68CA20780D1C0066AA45 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11A68C920780D1C0066AA45 /* FirstViewController.swift */; };
+		A11A68CC20780D1C0066AA45 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11A68CB20780D1C0066AA45 /* SecondViewController.swift */; };
+		A11A68D120780D1C0066AA45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11A68D020780D1C0066AA45 /* Assets.xcassets */; };
+		A11A68D420780D1C0066AA45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11A68D220780D1C0066AA45 /* LaunchScreen.storyboard */; };
+		A11A68DF20780D1C0066AA45 /* ProyectoMovilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11A68DE20780D1C0066AA45 /* ProyectoMovilesTests.swift */; };
+		A11A68EA20780D1C0066AA45 /* ProyectoMovilesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11A68E920780D1C0066AA45 /* ProyectoMovilesUITests.swift */; };
+		A11A68F820780D740066AA45 /* cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = A11A68F720780D740066AA45 /* cafe.png */; };
+		A133B97220854B20004B6083 /* Productos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A133B97020854B20004B6083 /* Productos.xcdatamodeld */; };
+		A133B974208553AA004B6083 /* cafe smart2.png in Resources */ = {isa = PBXBuildFile; fileRef = A133B973208553A9004B6083 /* cafe smart2.png */; };
+		A133B976208554E7004B6083 /* cafe smart 3.png in Resources */ = {isa = PBXBuildFile; fileRef = A133B975208554E7004B6083 /* cafe smart 3.png */; };
+		A133B98220855DFB004B6083 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = A133B98120855DFA004B6083 /* car.png */; };
+		A133B98420856097004B6083 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = A133B98320856097004B6083 /* home.png */; };
+		A148D7C520939B74002D18E1 /* Croissant.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A148D7B520939B6E002D18E1 /* Croissant.pdf */; };
+		A148D7C620939B74002D18E1 /* Moka.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A148D7B620939B6E002D18E1 /* Moka.pdf */; };
+		A148D7C720939B74002D18E1 /* Hamburguesa.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A148D7B720939B6E002D18E1 /* Hamburguesa.pdf */; };
+		A148D7C820939B74002D18E1 /* Frappe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A148D7B820939B6F002D18E1 /* Frappe.pdf */; };
+		A148D7C920939B74002D18E1 /* Irlandes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A148D7B920939B6F002D18E1 /* Irlandes.pdf */; };
+		A148D7CA20939B74002D18E1 /* Capuchino.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A148D7BA20939B6F002D18E1 /* Capuchino.pdf */; };
+		A148D7CB20939B74002D18E1 /* Chocoflan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A148D7BB20939B70002D18E1 /* Chocoflan.pdf */; };
+		A148D7CC20939B74002D18E1 /* Coca.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A148D7BC20939B70002D18E1 /* Coca.pdf */; };
+		A148D7CD20939B74002D18E1 /* Panino.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A148D7BD20939B70002D18E1 /* Panino.pdf */; };
+		A148D7CE20939B74002D18E1 /* Pay.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A148D7BE20939B71002D18E1 /* Pay.pdf */; };
+		A148D7CF20939B74002D18E1 /* Te Helado.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A148D7BF20939B71002D18E1 /* Te Helado.pdf */; };
+		A148D7D020939B74002D18E1 /* Muffin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A148D7C020939B72002D18E1 /* Muffin.pdf */; };
+		A148D7D120939B74002D18E1 /* Americano.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A148D7C120939B73002D18E1 /* Americano.pdf */; };
+		A148D7D220939B74002D18E1 /* Brownie.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A148D7C220939B73002D18E1 /* Brownie.pdf */; };
+		A148D7D320939B74002D18E1 /* Chocolate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A148D7C320939B74002D18E1 /* Chocolate.pdf */; };
+		A148D7D420939B74002D18E1 /* Espresso.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A148D7C420939B74002D18E1 /* Espresso.pdf */; };
+		A153789C208E5272007738AA /* Agua.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A153789B208E5272007738AA /* Agua.pdf */; };
+		A153789E208E55D9007738AA /* ViewControllerComprar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A153789D208E55D9007738AA /* ViewControllerComprar.swift */; };
+		A15378A0208E7785007738AA /* AlimentosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A153789F208E7785007738AA /* AlimentosViewController.swift */; };
+		A15378A2208E77A6007738AA /* BebidasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15378A1208E77A6007738AA /* BebidasViewController.swift */; };
+		A15423F3209279C70039C8FC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A15423F2209279C70039C8FC /* Podfile */; };
+		A15423F5209288510039C8FC /* MetodoPagoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15423F4209288510039C8FC /* MetodoPagoViewController.swift */; };
+		A1637776208A6F58004E43B8 /* Agua.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A1637775208A6F58004E43B8 /* Agua.pdf */; };
+		A163777A208A8C1A004E43B8 /* sucursales.png in Resources */ = {isa = PBXBuildFile; fileRef = A1637779208A8C19004E43B8 /* sucursales.png */; };
+		A163777C208A95D2004E43B8 /* paypal-logo-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = A163777B208A95D1004E43B8 /* paypal-logo-preview.png */; };
+		A16693C520894D6F00E83A96 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16693C420894D6F00E83A96 /* FourthViewController.swift */; };
+		A175B38920850E2600189718 /* americano.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B37820850E2200189718 /* americano.png */; };
+		A175B38A20850E2600189718 /* panino.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B37920850E2200189718 /* panino.png */; };
+		A175B38B20850E2600189718 /* brownie.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B37A20850E2300189718 /* brownie.png */; };
+		A175B38C20850E2600189718 /* hamburguesa.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B37B20850E2300189718 /* hamburguesa.png */; };
+		A175B38D20850E2600189718 /* muffin.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B37C20850E2300189718 /* muffin.png */; };
+		A175B38E20850E2600189718 /* agua.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B37D20850E2300189718 /* agua.png */; };
+		A175B38F20850E2600189718 /* frappe.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B37E20850E2400189718 /* frappe.png */; };
+		A175B39020850E2600189718 /* te helado.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B37F20850E2400189718 /* te helado.png */; };
+		A175B39120850E2600189718 /* capuchino.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B38020850E2400189718 /* capuchino.png */; };
+		A175B39220850E2600189718 /* coca.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B38120850E2400189718 /* coca.png */; };
+		A175B39320850E2600189718 /* espresso.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B38220850E2500189718 /* espresso.png */; };
+		A175B39420850E2600189718 /* chocolae.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B38320850E2500189718 /* chocolae.png */; };
+		A175B39520850E2600189718 /* chocoflan.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B38420850E2500189718 /* chocoflan.png */; };
+		A175B39620850E2600189718 /* moka.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B38520850E2500189718 /* moka.png */; };
+		A175B39720850E2600189718 /* irlandes.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B38620850E2500189718 /* irlandes.png */; };
+		A175B39820850E2600189718 /* Cheesecake.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B38720850E2600189718 /* Cheesecake.png */; };
+		A175B39920850E2600189718 /* croissant.png in Resources */ = {isa = PBXBuildFile; fileRef = A175B38820850E2600189718 /* croissant.png */; };
+		A175B39B2085108B00189718 /* logo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A175B39A2085108B00189718 /* logo.pdf */; };
+		A1AC1CA02087BDF200C6DC8C /* cash-in-hand.png in Resources */ = {isa = PBXBuildFile; fileRef = A1AC1C9F2087BDF000C6DC8C /* cash-in-hand.png */; };
+		A1AC1CA22087C20300C6DC8C /* tarjeta.png in Resources */ = {isa = PBXBuildFile; fileRef = A1AC1CA12087C20200C6DC8C /* tarjeta.png */; };
+		A1AC1CA42087C3A300C6DC8C /* tarjetas.png in Resources */ = {isa = PBXBuildFile; fileRef = A1AC1CA32087C3A200C6DC8C /* tarjetas.png */; };
+		A1C547A920814B83004C6700 /* VisorWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C547A820814B83004C6700 /* VisorWeb.swift */; };
+		A1C547AF20814EF3004C6700 /* ThreethViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C547AE20814EF3004C6700 /* ThreethViewController.swift */; };
+		A1C547B32081554F004C6700 /* carrito.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C547B22081554F004C6700 /* carrito.png */; };
+		A1DE16C72093951C00421600 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = A1DE16C62093951A00421600 /* about.png */; };
+		A1F022912087CEE1008F2056 /* Iconplus.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F022902087CEE0008F2056 /* Iconplus.png */; };
+		A1F022942087D3C5008F2056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F022922087D3C5008F2056 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A11A68DB20780D1C0066AA45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A11A68BC20780D1C0066AA45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A11A68C320780D1C0066AA45;
+			remoteInfo = ProyectoMoviles;
+		};
+		A11A68E620780D1C0066AA45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A11A68BC20780D1C0066AA45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A11A68C320780D1C0066AA45;
+			remoteInfo = ProyectoMoviles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A11A68C420780D1C0066AA45 /* ProyectoMoviles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoMoviles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11A68C720780D1C0066AA45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A11A68C920780D1C0066AA45 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A11A68CB20780D1C0066AA45 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A11A68D020780D1C0066AA45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A11A68D320780D1C0066AA45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A11A68D520780D1C0066AA45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11A68DA20780D1C0066AA45 /* ProyectoMovilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoMovilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11A68DE20780D1C0066AA45 /* ProyectoMovilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoMovilesTests.swift; sourceTree = "<group>"; };
+		A11A68E020780D1C0066AA45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11A68E520780D1C0066AA45 /* ProyectoMovilesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoMovilesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11A68E920780D1C0066AA45 /* ProyectoMovilesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoMovilesUITests.swift; sourceTree = "<group>"; };
+		A11A68EB20780D1C0066AA45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11A68F720780D740066AA45 /* cafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cafe.png; sourceTree = "<group>"; };
+		A133B97120854B20004B6083 /* Productos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Productos.xcdatamodel; sourceTree = "<group>"; };
+		A133B973208553A9004B6083 /* cafe smart2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cafe smart2.png"; sourceTree = "<group>"; };
+		A133B975208554E7004B6083 /* cafe smart 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cafe smart 3.png"; sourceTree = "<group>"; };
+		A133B98120855DFA004B6083 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		A133B98320856097004B6083 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		A148D7B520939B6E002D18E1 /* Croissant.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Croissant.pdf; sourceTree = "<group>"; };
+		A148D7B620939B6E002D18E1 /* Moka.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Moka.pdf; sourceTree = "<group>"; };
+		A148D7B720939B6E002D18E1 /* Hamburguesa.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hamburguesa.pdf; sourceTree = "<group>"; };
+		A148D7B820939B6F002D18E1 /* Frappe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Frappe.pdf; sourceTree = "<group>"; };
+		A148D7B920939B6F002D18E1 /* Irlandes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Irlandes.pdf; sourceTree = "<group>"; };
+		A148D7BA20939B6F002D18E1 /* Capuchino.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Capuchino.pdf; sourceTree = "<group>"; };
+		A148D7BB20939B70002D18E1 /* Chocoflan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Chocoflan.pdf; sourceTree = "<group>"; };
+		A148D7BC20939B70002D18E1 /* Coca.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Coca.pdf; sourceTree = "<group>"; };
+		A148D7BD20939B70002D18E1 /* Panino.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Panino.pdf; sourceTree = "<group>"; };
+		A148D7BE20939B71002D18E1 /* Pay.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Pay.pdf; sourceTree = "<group>"; };
+		A148D7BF20939B71002D18E1 /* Te Helado.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Te Helado.pdf"; sourceTree = "<group>"; };
+		A148D7C020939B72002D18E1 /* Muffin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Muffin.pdf; sourceTree = "<group>"; };
+		A148D7C120939B73002D18E1 /* Americano.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Americano.pdf; sourceTree = "<group>"; };
+		A148D7C220939B73002D18E1 /* Brownie.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Brownie.pdf; sourceTree = "<group>"; };
+		A148D7C320939B74002D18E1 /* Chocolate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Chocolate.pdf; sourceTree = "<group>"; };
+		A148D7C420939B74002D18E1 /* Espresso.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Espresso.pdf; sourceTree = "<group>"; };
+		A153789B208E5272007738AA /* Agua.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Agua.pdf; path = ../../../Downloads/Agua.pdf; sourceTree = "<group>"; };
+		A153789D208E55D9007738AA /* ViewControllerComprar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerComprar.swift; sourceTree = "<group>"; };
+		A153789F208E7785007738AA /* AlimentosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlimentosViewController.swift; sourceTree = "<group>"; };
+		A15378A1208E77A6007738AA /* BebidasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebidasViewController.swift; sourceTree = "<group>"; };
+		A15423F2209279C70039C8FC /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		A15423F4209288510039C8FC /* MetodoPagoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetodoPagoViewController.swift; sourceTree = "<group>"; };
+		A1637775208A6F58004E43B8 /* Agua.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Agua.pdf; path = ../../../Downloads/Agua.pdf; sourceTree = "<group>"; };
+		A1637779208A8C19004E43B8 /* sucursales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sucursales.png; sourceTree = "<group>"; };
+		A163777B208A95D1004E43B8 /* paypal-logo-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paypal-logo-preview.png"; sourceTree = "<group>"; };
+		A16693C420894D6F00E83A96 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		A175B37820850E2200189718 /* americano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = americano.png; sourceTree = "<group>"; };
+		A175B37920850E2200189718 /* panino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panino.png; sourceTree = "<group>"; };
+		A175B37A20850E2300189718 /* brownie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brownie.png; sourceTree = "<group>"; };
+		A175B37B20850E2300189718 /* hamburguesa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburguesa.png; sourceTree = "<group>"; };
+		A175B37C20850E2300189718 /* muffin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muffin.png; sourceTree = "<group>"; };
+		A175B37D20850E2300189718 /* agua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agua.png; sourceTree = "<group>"; };
+		A175B37E20850E2400189718 /* frappe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frappe.png; sourceTree = "<group>"; };
+		A175B37F20850E2400189718 /* te helado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "te helado.png"; sourceTree = "<group>"; };
+		A175B38020850E2400189718 /* capuchino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = capuchino.png; sourceTree = "<group>"; };
+		A175B38120850E2400189718 /* coca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coca.png; sourceTree = "<group>"; };
+		A175B38220850E2500189718 /* espresso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = espresso.png; sourceTree = "<group>"; };
+		A175B38320850E2500189718 /* chocolae.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chocolae.png; sourceTree = "<group>"; };
+		A175B38420850E2500189718 /* chocoflan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chocoflan.png; sourceTree = "<group>"; };
+		A175B38520850E2500189718 /* moka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moka.png; sourceTree = "<group>"; };
+		A175B38620850E2500189718 /* irlandes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = irlandes.png; sourceTree = "<group>"; };
+		A175B38720850E2600189718 /* Cheesecake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cheesecake.png; sourceTree = "<group>"; };
+		A175B38820850E2600189718 /* croissant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = croissant.png; sourceTree = "<group>"; };
+		A175B39A2085108B00189718 /* logo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo.pdf; sourceTree = "<group>"; };
+		A1AC1C9F2087BDF000C6DC8C /* cash-in-hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cash-in-hand.png"; sourceTree = "<group>"; };
+		A1AC1CA12087C20200C6DC8C /* tarjeta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tarjeta.png; sourceTree = "<group>"; };
+		A1AC1CA32087C3A200C6DC8C /* tarjetas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tarjetas.png; sourceTree = "<group>"; };
+		A1C547A820814B83004C6700 /* VisorWeb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisorWeb.swift; sourceTree = "<group>"; };
+		A1C547AE20814EF3004C6700 /* ThreethViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreethViewController.swift; sourceTree = "<group>"; };
+		A1C547B22081554F004C6700 /* carrito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carrito.png; sourceTree = "<group>"; };
+		A1DE16C62093951A00421600 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		A1F022902087CEE0008F2056 /* Iconplus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Iconplus.png; sourceTree = "<group>"; };
+		A1F022932087D3C5008F2056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A11A68C120780D1C0066AA45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11A68D720780D1C0066AA45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11A68E220780D1C0066AA45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A11A68BB20780D1C0066AA45 = {
+			isa = PBXGroup;
+			children = (
+				A11A68C620780D1C0066AA45 /* ProyectoMoviles */,
+				A11A68DD20780D1C0066AA45 /* ProyectoMovilesTests */,
+				A11A68E820780D1C0066AA45 /* ProyectoMovilesUITests */,
+				A11A68C520780D1C0066AA45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A11A68C520780D1C0066AA45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A11A68C420780D1C0066AA45 /* ProyectoMoviles.app */,
+				A11A68DA20780D1C0066AA45 /* ProyectoMovilesTests.xctest */,
+				A11A68E520780D1C0066AA45 /* ProyectoMovilesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A11A68C620780D1C0066AA45 /* ProyectoMoviles */ = {
+			isa = PBXGroup;
+			children = (
+				A148D7C120939B73002D18E1 /* Americano.pdf */,
+				A148D7C220939B73002D18E1 /* Brownie.pdf */,
+				A148D7BA20939B6F002D18E1 /* Capuchino.pdf */,
+				A148D7BB20939B70002D18E1 /* Chocoflan.pdf */,
+				A148D7C320939B74002D18E1 /* Chocolate.pdf */,
+				A148D7BC20939B70002D18E1 /* Coca.pdf */,
+				A148D7B520939B6E002D18E1 /* Croissant.pdf */,
+				A148D7C420939B74002D18E1 /* Espresso.pdf */,
+				A148D7B820939B6F002D18E1 /* Frappe.pdf */,
+				A148D7B720939B6E002D18E1 /* Hamburguesa.pdf */,
+				A148D7B920939B6F002D18E1 /* Irlandes.pdf */,
+				A148D7B620939B6E002D18E1 /* Moka.pdf */,
+				A148D7C020939B72002D18E1 /* Muffin.pdf */,
+				A148D7BD20939B70002D18E1 /* Panino.pdf */,
+				A148D7BE20939B71002D18E1 /* Pay.pdf */,
+				A148D7BF20939B71002D18E1 /* Te Helado.pdf */,
+				A175B39A2085108B00189718 /* logo.pdf */,
+				A175B37D20850E2300189718 /* agua.png */,
+				A175B37820850E2200189718 /* americano.png */,
+				A133B973208553A9004B6083 /* cafe smart2.png */,
+				A175B37A20850E2300189718 /* brownie.png */,
+				A175B38020850E2400189718 /* capuchino.png */,
+				A175B38720850E2600189718 /* Cheesecake.png */,
+				A175B38420850E2500189718 /* chocoflan.png */,
+				A1AC1CA12087C20200C6DC8C /* tarjeta.png */,
+				A1637775208A6F58004E43B8 /* Agua.pdf */,
+				A133B975208554E7004B6083 /* cafe smart 3.png */,
+				A175B38320850E2500189718 /* chocolae.png */,
+				A175B38120850E2400189718 /* coca.png */,
+				A175B38820850E2600189718 /* croissant.png */,
+				A175B38220850E2500189718 /* espresso.png */,
+				A175B37E20850E2400189718 /* frappe.png */,
+				A1DE16C62093951A00421600 /* about.png */,
+				A175B37B20850E2300189718 /* hamburguesa.png */,
+				A175B38620850E2500189718 /* irlandes.png */,
+				A1AC1C9F2087BDF000C6DC8C /* cash-in-hand.png */,
+				A175B38520850E2500189718 /* moka.png */,
+				A175B37C20850E2300189718 /* muffin.png */,
+				A175B37920850E2200189718 /* panino.png */,
+				A175B37F20850E2400189718 /* te helado.png */,
+				A153789B208E5272007738AA /* Agua.pdf */,
+				A163777B208A95D1004E43B8 /* paypal-logo-preview.png */,
+				A1637779208A8C19004E43B8 /* sucursales.png */,
+				A1F022902087CEE0008F2056 /* Iconplus.png */,
+				A1F022922087D3C5008F2056 /* Main.storyboard */,
+				A11A68C720780D1C0066AA45 /* AppDelegate.swift */,
+				A11A68C920780D1C0066AA45 /* FirstViewController.swift */,
+				A11A68CB20780D1C0066AA45 /* SecondViewController.swift */,
+				A1C547AE20814EF3004C6700 /* ThreethViewController.swift */,
+				A16693C420894D6F00E83A96 /* FourthViewController.swift */,
+				A153789F208E7785007738AA /* AlimentosViewController.swift */,
+				A15378A1208E77A6007738AA /* BebidasViewController.swift */,
+				A153789D208E55D9007738AA /* ViewControllerComprar.swift */,
+				A15423F4209288510039C8FC /* MetodoPagoViewController.swift */,
+				A133B98320856097004B6083 /* home.png */,
+				A1C547B22081554F004C6700 /* carrito.png */,
+				A1AC1CA32087C3A200C6DC8C /* tarjetas.png */,
+				A133B98120855DFA004B6083 /* car.png */,
+				A11A68D020780D1C0066AA45 /* Assets.xcassets */,
+				A11A68F720780D740066AA45 /* cafe.png */,
+				A11A68D220780D1C0066AA45 /* LaunchScreen.storyboard */,
+				A11A68D520780D1C0066AA45 /* Info.plist */,
+				A1C547A820814B83004C6700 /* VisorWeb.swift */,
+				A133B97020854B20004B6083 /* Productos.xcdatamodeld */,
+				A15423F2209279C70039C8FC /* Podfile */,
+			);
+			path = ProyectoMoviles;
+			sourceTree = "<group>";
+		};
+		A11A68DD20780D1C0066AA45 /* ProyectoMovilesTests */ = {
+			isa = PBXGroup;
+			children = (
+				A11A68DE20780D1C0066AA45 /* ProyectoMovilesTests.swift */,
+				A11A68E020780D1C0066AA45 /* Info.plist */,
+			);
+			path = ProyectoMovilesTests;
+			sourceTree = "<group>";
+		};
+		A11A68E820780D1C0066AA45 /* ProyectoMovilesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A11A68E920780D1C0066AA45 /* ProyectoMovilesUITests.swift */,
+				A11A68EB20780D1C0066AA45 /* Info.plist */,
+			);
+			path = ProyectoMovilesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A11A68C320780D1C0066AA45 /* ProyectoMoviles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11A68EE20780D1C0066AA45 /* Build configuration list for PBXNativeTarget "ProyectoMoviles" */;
+			buildPhases = (
+				A11A68C020780D1C0066AA45 /* Sources */,
+				A11A68C120780D1C0066AA45 /* Frameworks */,
+				A11A68C220780D1C0066AA45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProyectoMoviles;
+			productName = ProyectoMoviles;
+			productReference = A11A68C420780D1C0066AA45 /* ProyectoMoviles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A11A68D920780D1C0066AA45 /* ProyectoMovilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11A68F120780D1C0066AA45 /* Build configuration list for PBXNativeTarget "ProyectoMovilesTests" */;
+			buildPhases = (
+				A11A68D620780D1C0066AA45 /* Sources */,
+				A11A68D720780D1C0066AA45 /* Frameworks */,
+				A11A68D820780D1C0066AA45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A11A68DC20780D1C0066AA45 /* PBXTargetDependency */,
+			);
+			name = ProyectoMovilesTests;
+			productName = ProyectoMovilesTests;
+			productReference = A11A68DA20780D1C0066AA45 /* ProyectoMovilesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A11A68E420780D1C0066AA45 /* ProyectoMovilesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11A68F420780D1C0066AA45 /* Build configuration list for PBXNativeTarget "ProyectoMovilesUITests" */;
+			buildPhases = (
+				A11A68E120780D1C0066AA45 /* Sources */,
+				A11A68E220780D1C0066AA45 /* Frameworks */,
+				A11A68E320780D1C0066AA45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A11A68E720780D1C0066AA45 /* PBXTargetDependency */,
+			);
+			name = ProyectoMovilesUITests;
+			productName = ProyectoMovilesUITests;
+			productReference = A11A68E520780D1C0066AA45 /* ProyectoMovilesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A11A68BC20780D1C0066AA45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = moviles;
+				TargetAttributes = {
+					A11A68C320780D1C0066AA45 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A11A68D920780D1C0066AA45 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A11A68C320780D1C0066AA45;
+					};
+					A11A68E420780D1C0066AA45 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A11A68C320780D1C0066AA45;
+					};
+				};
+			};
+			buildConfigurationList = A11A68BF20780D1C0066AA45 /* Build configuration list for PBXProject "ProyectoMoviles" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A11A68BB20780D1C0066AA45;
+			productRefGroup = A11A68C520780D1C0066AA45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A11A68C320780D1C0066AA45 /* ProyectoMoviles */,
+				A11A68D920780D1C0066AA45 /* ProyectoMovilesTests */,
+				A11A68E420780D1C0066AA45 /* ProyectoMovilesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A11A68C220780D1C0066AA45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A175B39120850E2600189718 /* capuchino.png in Resources */,
+				A15423F3209279C70039C8FC /* Podfile in Resources */,
+				A175B39320850E2600189718 /* espresso.png in Resources */,
+				A175B39820850E2600189718 /* Cheesecake.png in Resources */,
+				A175B38D20850E2600189718 /* muffin.png in Resources */,
+				A175B38E20850E2600189718 /* agua.png in Resources */,
+				A148D7C620939B74002D18E1 /* Moka.pdf in Resources */,
+				A1F022942087D3C5008F2056 /* Main.storyboard in Resources */,
+				A133B98220855DFB004B6083 /* car.png in Resources */,
+				A1F022912087CEE1008F2056 /* Iconplus.png in Resources */,
+				A153789C208E5272007738AA /* Agua.pdf in Resources */,
+				A148D7C820939B74002D18E1 /* Frappe.pdf in Resources */,
+				A148D7D120939B74002D18E1 /* Americano.pdf in Resources */,
+				A175B39520850E2600189718 /* chocoflan.png in Resources */,
+				A133B974208553AA004B6083 /* cafe smart2.png in Resources */,
+				A148D7CB20939B74002D18E1 /* Chocoflan.pdf in Resources */,
+				A148D7CC20939B74002D18E1 /* Coca.pdf in Resources */,
+				A175B38C20850E2600189718 /* hamburguesa.png in Resources */,
+				A175B38A20850E2600189718 /* panino.png in Resources */,
+				A1AC1CA02087BDF200C6DC8C /* cash-in-hand.png in Resources */,
+				A175B39220850E2600189718 /* coca.png in Resources */,
+				A1AC1CA42087C3A300C6DC8C /* tarjetas.png in Resources */,
+				A175B39720850E2600189718 /* irlandes.png in Resources */,
+				A148D7D320939B74002D18E1 /* Chocolate.pdf in Resources */,
+				A148D7C720939B74002D18E1 /* Hamburguesa.pdf in Resources */,
+				A148D7D420939B74002D18E1 /* Espresso.pdf in Resources */,
+				A148D7CA20939B74002D18E1 /* Capuchino.pdf in Resources */,
+				A148D7D220939B74002D18E1 /* Brownie.pdf in Resources */,
+				A133B976208554E7004B6083 /* cafe smart 3.png in Resources */,
+				A1C547B32081554F004C6700 /* carrito.png in Resources */,
+				A163777A208A8C1A004E43B8 /* sucursales.png in Resources */,
+				A175B38B20850E2600189718 /* brownie.png in Resources */,
+				A11A68D420780D1C0066AA45 /* LaunchScreen.storyboard in Resources */,
+				A11A68D120780D1C0066AA45 /* Assets.xcassets in Resources */,
+				A1AC1CA22087C20300C6DC8C /* tarjeta.png in Resources */,
+				A148D7D020939B74002D18E1 /* Muffin.pdf in Resources */,
+				A148D7C920939B74002D18E1 /* Irlandes.pdf in Resources */,
+				A163777C208A95D2004E43B8 /* paypal-logo-preview.png in Resources */,
+				A175B38920850E2600189718 /* americano.png in Resources */,
+				A11A68F820780D740066AA45 /* cafe.png in Resources */,
+				A1637776208A6F58004E43B8 /* Agua.pdf in Resources */,
+				A1DE16C72093951C00421600 /* about.png in Resources */,
+				A175B39020850E2600189718 /* te helado.png in Resources */,
+				A148D7C520939B74002D18E1 /* Croissant.pdf in Resources */,
+				A175B39920850E2600189718 /* croissant.png in Resources */,
+				A148D7CE20939B74002D18E1 /* Pay.pdf in Resources */,
+				A175B39420850E2600189718 /* chocolae.png in Resources */,
+				A148D7CD20939B74002D18E1 /* Panino.pdf in Resources */,
+				A148D7CF20939B74002D18E1 /* Te Helado.pdf in Resources */,
+				A175B39B2085108B00189718 /* logo.pdf in Resources */,
+				A175B38F20850E2600189718 /* frappe.png in Resources */,
+				A133B98420856097004B6083 /* home.png in Resources */,
+				A175B39620850E2600189718 /* moka.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11A68D820780D1C0066AA45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11A68E320780D1C0066AA45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A11A68C020780D1C0066AA45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15423F5209288510039C8FC /* MetodoPagoViewController.swift in Sources */,
+				A1C547AF20814EF3004C6700 /* ThreethViewController.swift in Sources */,
+				A153789E208E55D9007738AA /* ViewControllerComprar.swift in Sources */,
+				A15378A0208E7785007738AA /* AlimentosViewController.swift in Sources */,
+				A15378A2208E77A6007738AA /* BebidasViewController.swift in Sources */,
+				A11A68CC20780D1C0066AA45 /* SecondViewController.swift in Sources */,
+				A11A68C820780D1C0066AA45 /* AppDelegate.swift in Sources */,
+				A16693C520894D6F00E83A96 /* FourthViewController.swift in Sources */,
+				A1C547A920814B83004C6700 /* VisorWeb.swift in Sources */,
+				A11A68CA20780D1C0066AA45 /* FirstViewController.swift in Sources */,
+				A133B97220854B20004B6083 /* Productos.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11A68D620780D1C0066AA45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11A68DF20780D1C0066AA45 /* ProyectoMovilesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11A68E120780D1C0066AA45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11A68EA20780D1C0066AA45 /* ProyectoMovilesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A11A68DC20780D1C0066AA45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A11A68C320780D1C0066AA45 /* ProyectoMoviles */;
+			targetProxy = A11A68DB20780D1C0066AA45 /* PBXContainerItemProxy */;
+		};
+		A11A68E720780D1C0066AA45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A11A68C320780D1C0066AA45 /* ProyectoMoviles */;
+			targetProxy = A11A68E620780D1C0066AA45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A11A68D220780D1C0066AA45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A11A68D320780D1C0066AA45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A1F022922087D3C5008F2056 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F022932087D3C5008F2056 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A11A68EC20780D1C0066AA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A11A68ED20780D1C0066AA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A11A68EF20780D1C0066AA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProyectoMoviles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leia.ProyectoMoviles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A11A68F020780D1C0066AA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProyectoMoviles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leia.ProyectoMoviles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A11A68F220780D1C0066AA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProyectoMovilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leia.ProyectoMovilesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoMoviles.app/ProyectoMoviles";
+			};
+			name = Debug;
+		};
+		A11A68F320780D1C0066AA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProyectoMovilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leia.ProyectoMovilesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoMoviles.app/ProyectoMoviles";
+			};
+			name = Release;
+		};
+		A11A68F520780D1C0066AA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProyectoMovilesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leia.ProyectoMovilesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProyectoMoviles;
+			};
+			name = Debug;
+		};
+		A11A68F620780D1C0066AA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProyectoMovilesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leia.ProyectoMovilesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProyectoMoviles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A11A68BF20780D1C0066AA45 /* Build configuration list for PBXProject "ProyectoMoviles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11A68EC20780D1C0066AA45 /* Debug */,
+				A11A68ED20780D1C0066AA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11A68EE20780D1C0066AA45 /* Build configuration list for PBXNativeTarget "ProyectoMoviles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11A68EF20780D1C0066AA45 /* Debug */,
+				A11A68F020780D1C0066AA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11A68F120780D1C0066AA45 /* Build configuration list for PBXNativeTarget "ProyectoMovilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11A68F220780D1C0066AA45 /* Debug */,
+				A11A68F320780D1C0066AA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11A68F420780D1C0066AA45 /* Build configuration list for PBXNativeTarget "ProyectoMovilesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11A68F520780D1C0066AA45 /* Debug */,
+				A11A68F620780D1C0066AA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A133B97020854B20004B6083 /* Productos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A133B97120854B20004B6083 /* Productos.xcdatamodel */,
+			);
+			currentVersion = A133B97120854B20004B6083 /* Productos.xcdatamodel */;
+			path = Productos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A11A68BC20780D1C0066AA45 /* Project object */;
+}

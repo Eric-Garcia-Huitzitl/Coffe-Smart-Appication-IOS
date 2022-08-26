@@ -1,0 +1,5 @@
+source "https://github.com/CocoPoads/Specs.git"
+target 'ProyectoMoviles' do
+pod 'GoogleMaps'
+pod 'GooglePlaces'
+end
